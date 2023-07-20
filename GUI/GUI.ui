@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Stealth</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>main_ico.png</normaloff>main_ico.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>650</width>
+     <height>355</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(25,25,30)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>651</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(35,35,43)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>0</y>
+     <width>70</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 16pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400; color:#ffffff;&quot;&gt;Stealth&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>0</y>
+     <width>27</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(35,35,43);
+font: 63 12pt &quot;Mayberry Pro&quot;;
+border: none;
+}
+QPushButton:hover {
+color: #e84118;
+}
+QPushButton:pressed {
+color:#c23616;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>0</y>
+     <width>27</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(35,35,43);
+font: 63 16pt &quot;Mayberry Pro&quot;;
+border: none;
+}
+QPushButton:hover {
+color: rgb(200,200,200);
+}
+QPushButton:pressed {
+color: rgb(150,150,150);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>30</y>
+     <width>210</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>32</y>
+     <width>209</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 14pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#1884f8;&quot;&gt;Download&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>60</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>95</y>
+     <width>210</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>160</y>
+     <width>210</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>225</y>
+     <width>210</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>290</y>
+     <width>210</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>97</y>
+     <width>209</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 14pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#1884f8;&quot;&gt;Recent&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>126</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>126</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>161</y>
+     <width>209</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 14pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#1884f8;&quot;&gt;Prefetch&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>190</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>190</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>224</y>
+     <width>209</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 14pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#1884f8;&quot;&gt;Temp&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>255</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>255</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>290</y>
+     <width>209</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 14pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#1884f8;&quot;&gt;AppData&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>320</y>
+     <width>204</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>31</y>
+     <width>425</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(45,45,50);
+border: 1px solid rgb(100,100,100);
+
+color: white;
+font: 11pt &quot;Arial&quot;;
+</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>435</x>
+     <y>290</y>
+     <width>210</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>290</y>
+     <width>210</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>436</x>
+     <y>290</y>
+     <width>209</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 14pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#1675e1;&quot;&gt;Kill Process&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>438</x>
+     <y>320</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Включить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>543</x>
+     <y>320</y>
+     <width>100</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Выключить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>290</y>
+     <width>209</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 14pt &quot;Mayberry Pro&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#1675e1;&quot;&gt;Event Log&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>223</x>
+     <y>320</y>
+     <width>204</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>225</y>
+     <width>425</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(30,30,35);
+border: 1px solid rgb(35,35,40)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>230</y>
+     <width>301</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(45,45,50);
+border: 1px solid rgb(100,100,100);
+
+color: white;
+font: 11pt &quot;Arial&quot;;
+font-weight: bold;
+
+padding-left: 3px;
+padding-right: 3px;
+</string>
+   </property>
+   <property name="maxLength">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_15">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>230</y>
+     <width>111</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: white;
+background-color: rgb(40,40,45);
+font: 63 11pt &quot;Mayberry Pro&quot;;
+font-weight: bold;
+border: none;
+}
+QPushButton:hover {
+border: 1px solid rgb(70,70,75);
+background-color: rgb(43,43,48);
+}
+QPushButton:pressed {
+background-color: rgb(45,45,50);
+}</string>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>label_11</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>label_12</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_10</zorder>
+  <zorder>label_13</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>textBrowser</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_16</zorder>
+  <zorder>pushButton_12</zorder>
+  <zorder>pushButton_13</zorder>
+  <zorder>label_17</zorder>
+  <zorder>pushButton_14</zorder>
+  <zorder>label_18</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>pushButton_15</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
